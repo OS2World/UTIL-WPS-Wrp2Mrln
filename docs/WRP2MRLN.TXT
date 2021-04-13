@@ -1,0 +1,14 @@
+Upload Information Template for Hobbes
+======================================
+
+Archive Name: WRP2MRLN.ZIP
+Program Description: Patch WPS with new Icons,Pointers,Fonts,Buttons from Merlin
+Operating System/Version: Tested only in OS/2 Warp v3.00
+Program Source: YES Pascal
+Replaces:
+
+Your name:          Marcos Francisco Caselin Nava y  Alfonso Pesqueira
+Your email address: (salesman@m-net.arbornet.org)   (apocalps@teesa.com)
+
+Proposed directory for placement: /os2/wpsutil
+

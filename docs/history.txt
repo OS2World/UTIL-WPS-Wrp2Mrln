@@ -1,0 +1,10 @@
+
+Wrp2Mrln 1.0 Historia
+=====================
+
+1.0 - 28 Ago,1996
+    - version inicial
+
+0.9 - 20 Ago, 1996
+    - version beta
+

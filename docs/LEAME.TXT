@@ -1,0 +1,153 @@
+INTRODUCCION
+
+  Wrp2Mrln provee de una nueva apariencia al agraciado OS/2 Warp Versi¢n 3.0
+  reemplazando Iconos de los Folders, de los Punteros del Rat¢n, los Iconos
+  de los di logos de aviso, los iconos del Spooler de impresi¢n, tambi‚n de
+  los botones de control de las ventanas, y ademas adicionar  las sencillas
+  pero hermos¡simas fuentes 'WarpSans', 'WarpSans Bold', 'New Font C ISO' y
+  adicionara 12 nuevos iconos al PMWP.DLL que vendr n en el Merlin y dar n
+  una nueva presentaci¢n y mas agradable y amigable para el Warp.
+
+INSTALACION
+
+  Archivos en esta Versi¢n:
+           WRP2MRLN.EXE    - programa
+           WRP2MRLN.PAS    - codigo fuente
+           BUNDLE          - archivo de datos
+           WRP2MRLN.RC     - rc para un nuevo escritorio
+           CLOSE.BMP       - bitmap para XIT
+           NPSWPSCB.BMP    - bitmap para NPSWPS
+           LEAME.TXT       - este archivo
+           README.TXT      - este archivo pero en Ingl‚s
+           HISTORIA.DOC    - lo que ha cambiado
+           FILE_ID.DIZ     - archivo de identificaci¢n para BBS
+
+  el archivo BUNDLE contiene lo siguiente:
+
+          +DSPRES.DAT      - iconos de di logos, punteros de rat¢n y Fuentes
+          +IBMDEV32.DAT    - iconos de di logos, punteros de rat¢n y Fuentes
+          +PMCTLS.DAT      - botones para los cuadernos de valores
+          +PMMERGE.DAT     - botones de control para las ventanas, Iconos
+          +PMVIOP.DAT      - iconos para las sesiones de DOS y OS/2
+         *+PMWP.DAT        - iconos para el WPS, iconos, Folders, etc.
+          +WPCONFIG.DAT    - iconos programas de configuraci¢n
+          +WPPRTMRI.DAT    - iconos para vista de trabajos en el Spooler
+
+         * se adicionaron 12 nuevos iconos que vienen en Merlin.
+         + todos los archivos *.DAT vienen en formato ZIP.
+
+  Programas externos requeridos:
+
+    *(RESMGR.ZIP de Martin Lafaix lafaix@alto.unice.fr)
+                RESMGR.CMD      - manejador de recursos
+                RDCPP.EXE       - preprocesador descompilador de recursos
+
+    *(LXLT115.ZIP de Andrew Zabolotny y FRIENDS Software)
+                UNLOCK.EXE      - desbloqueador de archivos
+                LXLITE.EXE      - compactador de archivos ejecutables
+                LXLITE.CFG      - archivo de configuraci¢n
+
+     (UNZIP.EXE de Info-ZIP)
+                UNZIP.EXE       - programa descompactador de Zips
+                                  este puede ser encontrado en
+                           hobbes.nmsu.edu/os2/archiver/unz512x?.exe
+
+     (RC.EXE, UNPACK.EXE, *PACK.EXE de MS e IBM Corp.)
+                RC.EXE          - compilador de recursos
+                UNPACK.EXE      - descompactador de archivos 'bulto'
+               *PACK.EXE        - compactador de archivos
+
+     * ya vienen incluidos.
+
+  Copie los dos primeros archivos (WRP2MRLN.EXE, BUNDLE) en cualquier otro
+  directorio de la misma unidad donde tenga instalado OS/2 y los demas
+  archivos d‚jelos dentro del PATH.
+
+USANDO WRP2MRLN
+
+  Cuando WRP2MRLN es ejecutado este crear  un directorio que se llamar 
+  "\OS2\DLL\BACKUP" ah¡ se guardar n sus archivos sin ninguna modificaci¢n
+  (esto es por si acaso llega a suceder alguna desgracia como un corte en
+  la energ¡a el‚ctrica durante la modificaci¢n), y luego se copiar n los
+  mismos archivos al directorio de trabajo donde se encuentre WRP2MRLN.EXE
+  ah¡ descompactar  el archivo llamado BUNDLE que contiene los archivos
+  necesarios para llevar a cabo las modificaciones y usted ser  informado
+  paso a paso de las modificaciones que se est‚n realizando y que porcentaje
+  total lleva, pudiendo interrumpir mediante Ctrl-C, en total el proceso
+  se tarda al rededor de 5 a 10 minutos o menos dependiendo de la maquina
+  que tengan en la mia se tardo alrededor de 5 mins.
+
+  Nota: Durante la compresi¢n de los DLLs puede parecer que el sistema
+        se ha trabado pero no es asi.
+
+                      ***  Por Favor Sea Paciente. ***
+
+MODIFICACIONES
+
+  Los archivos que ser n actualizados son:
+
+                       DSPRES.DLL
+                       IBMDEV32.DLL
+                       PMCTLS.DLL
+                       PMMERGE.DLL
+                       PMVIOP.DLL
+                       PMWP.DLL
+                       WPCONFIG.DLL
+                       WPPRTMRI.DLL
+
+  despu‚s de que haya terminado puede reiniciar su computadora como siempre
+  lo hace, y encontrar  que algunos de los iconos del escritorio han cambiado
+  pero no todos, por eso recomiendo crear un nuevo escritorio con el mandato
+  MAKEINI.EXE INI.INI WRP2MRLN.RC con esto habr  creado una nueva forma de
+  mirar al Warp.
+
+PROBLEMAS
+
+  Si usted tiene problemas, sugerencias, nuevos iconos Donaciones mas que
+  nada para comprar libros de programaci¢n para OS/2 por que este programa
+  lo hice consultando un archivo .INF de hace como 5 o 6 a¤os. =(
+
+         salesman@m-net.arbornet.org     (v¡a Internet)
+         Marcos Francisco Caselin Nava Autor de este programa
+
+   ¢ tambi‚n a:
+
+         apocalps@teesa.com              (v¡a Internet)
+         Alfonso Pesqueira de quien fue la idea de hacerles este programa
+         asi como de algunos iconos y el traductor de este archivo.
+
+  aseg£rese de mandar una descripci¢n exacta de lo que haya ocurrido.
+
+  Para correo normal:
+
+    Marcos Francisco Caselin Nava
+    C.P.55070, Playa de Cuyutlan Mz.582 Lt.8 #43
+    Colonia Jardines de Morelos
+    Ecatepec, Estado de M‚xico, M‚xico.
+
+ACERCA DE...
+
+   Este programa fue escrito en Vitual Pascal 1.0 Beta (#003) por cierto
+   es mi primer programa para OS/2 el codigo fuente viene incluido y que
+   tengo planeado implementarle algunas cosas mas, como un restaurador de
+   respaldos, Editor de Inis en Modo Texto, un Programa para PM que ejecute
+   mandatos o programas y que este mismo programa desbloque y tambi‚n que
+   adicione los nuevos colores al escritorio o alguna idea que a ustedes
+   se les ocurra por que ya se acabaron las Vacaciones y hay que ir a la
+   Preparatoria, y pues ya no tengo mucho tiempo para programar, en fin
+   disfr£tenlo.
+
+MARCAS REGISTRADAS
+
+   Todas las Marcas y Nombres de Programas y Compa¤ias estan registrados
+   a nombre de sus respectivos due¤os.
+
+DISCLAIMER (Renuncia)
+
+  Este paquete es provisto 'tal cual' y sin ninguna garant¡a o garant¡as
+  sobre si mismo. Francisco Caselin y Alfonso Pesqueira no se har n
+  responsables por ning£n da¤o ¢ p‚rdida que pueda causar, y esto no esta
+  limitado a perdidas de car cter financiero, f¡sico, emocional, marital
+  social, o de naturaleza mental que pueda causar el uso de cualquier
+  cosa de este paquete o para cualquier cosa o prop¢sito.
+
